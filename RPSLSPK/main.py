@@ -59,7 +59,7 @@ class Winnings(Options):
             'Lizard':['Paper', 'Spock'], 
             'Spock':['Rock', 'Scissors']
         }
-        print(f' {self.player_name} choose: {self.game_options[self.player_choice]}\n Computer choose: {self.game_options[self.computer]}\n')
+        print(f'{self.player_name} choose: {self.game_options[self.player_choice]}\nComputer choose: {self.game_options[self.computer]}\n')
 # We've established the game rules in a dictionary that defines what beats what.     
 class Conditions(Winnings):
     def conditions(self):
